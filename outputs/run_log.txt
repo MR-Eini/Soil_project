@@ -41,3 +41,155 @@
 [2026-02-04 05:05:06] random_cv_mixed complete in 17m 22.81s
 [2026-02-04 05:05:06] DONE. Total execution time: 20m 38.52s
 [2026-02-04 05:05:06] Outputs written to: E:\pythonProject\Soil_project\outputs
+[2026-02-04 09:48:16] Run started.
+[2026-02-04 09:48:16] Python executable: C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe
+[2026-02-04 09:48:16] Reading CSV: E:\pythonProject\Soil_project\zeszyt1.csv
+[2026-02-04 09:48:16] CSV loaded | rows=93 cols=124 | elapsed=0.0s
+[2026-02-04 09:48:16] Inferring columns...
+[2026-02-04 09:48:16] Remote predictors inferred | count=111 | elapsed=0.0s
+[2026-02-04 09:48:16] Preparing predictors...
+[2026-02-04 09:48:16] Prepared X,y | n=93 p=111 | elapsed=0.0s
+[2026-02-04 09:48:16] Correlation pruning | threshold=0.98
+[2026-02-04 09:48:17] Pruning done | kept_p=55 | elapsed=0.1s
+[2026-02-04 09:48:17] Groups | unique Dayn=9 | unique SiteTerm=93
+[2026-02-04 09:48:17] Models prepared: Ridge, ElasticNet, PLSR, SVR_RBF, GPR, RandomForest, HistGB
+[2026-02-04 09:48:17] CV start: leave_one_day_out | folds=9 | n=93 | p=55
+[2026-02-04 09:48:17]   Model start: Ridge | grid=yes
+[2026-02-04 09:48:23]     Fold 1/9 done | model=Ridge | fit=6.4s | fold_total=6.4s | RMSE=8.257 | R2=-0.687
+[2026-02-04 09:48:23]     Fold 2/9 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=7.595 | R2=-0.968
+[2026-02-04 09:48:24]     Fold 3/9 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=7.8 | R2=-18.597
+[2026-02-04 09:48:24]     Fold 4/9 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=3.628 | R2=-3.913
+[2026-02-04 09:48:24]     Fold 5/9 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=2.423 | R2=-0.432
+[2026-02-04 09:48:25]     Fold 6/9 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=4.739 | R2=-2.870
+[2026-02-04 09:48:25]     Fold 7/9 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=4.325 | R2=-0.745
+[2026-02-04 09:48:25]     Fold 8/9 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=6.901 | R2=-0.697
+[2026-02-04 09:48:26]     Fold 9/9 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=3.346 | R2=0.149
+[2026-02-04 09:48:26]   Model end: Ridge | elapsed=9.3s
+[2026-02-04 09:48:26]   Model start: ElasticNet | grid=yes
+[2026-02-04 09:48:29]     Fold 1/9 done | model=ElasticNet | fit=2.9s | fold_total=2.9s | RMSE=8.354 | R2=-0.727
+[2026-02-04 09:48:32]     Fold 2/9 done | model=ElasticNet | fit=2.8s | fold_total=2.8s | RMSE=7.671 | R2=-1.007
+[2026-02-04 09:48:35]     Fold 3/9 done | model=ElasticNet | fit=3.7s | fold_total=3.7s | RMSE=7.666 | R2=-17.929
+[2026-02-04 09:48:38]     Fold 4/9 done | model=ElasticNet | fit=3.1s | fold_total=3.1s | RMSE=3.778 | R2=-4.326
+[2026-02-04 09:48:42]     Fold 5/9 done | model=ElasticNet | fit=3.1s | fold_total=3.2s | RMSE=2.438 | R2=-0.450
+[2026-02-04 09:48:45]     Fold 6/9 done | model=ElasticNet | fit=3.0s | fold_total=3.0s | RMSE=4.667 | R2=-2.753
+[2026-02-04 09:48:48]     Fold 7/9 done | model=ElasticNet | fit=3.1s | fold_total=3.1s | RMSE=4.247 | R2=-0.683
+[2026-02-04 09:48:52]     Fold 8/9 done | model=ElasticNet | fit=4.1s | fold_total=4.1s | RMSE=6.727 | R2=-0.612
+[2026-02-04 09:48:55]     Fold 9/9 done | model=ElasticNet | fit=3.2s | fold_total=3.2s | RMSE=3.372 | R2=0.136
+[2026-02-04 09:48:55]   Model end: ElasticNet | elapsed=29.1s
+[2026-02-04 09:48:55]   Model start: PLSR | grid=yes
+[2026-02-04 09:48:55]     Fold 1/9 done | model=PLSR | fit=0.2s | fold_total=0.2s | RMSE=8.662 | R2=-0.857
+[2026-02-04 09:48:55]     Fold 2/9 done | model=PLSR | fit=0.2s | fold_total=0.2s | RMSE=7.578 | R2=-0.959
+[2026-02-04 09:48:56]     Fold 3/9 done | model=PLSR | fit=0.2s | fold_total=0.2s | RMSE=8.888 | R2=-24.442
+[2026-02-04 09:48:56]     Fold 4/9 done | model=PLSR | fit=0.2s | fold_total=0.2s | RMSE=4.158 | R2=-5.453
+[2026-02-04 09:48:56]     Fold 5/9 done | model=PLSR | fit=0.2s | fold_total=0.2s | RMSE=2.538 | R2=-0.572
+[2026-02-04 09:48:56]     Fold 6/9 done | model=PLSR | fit=0.2s | fold_total=0.2s | RMSE=4.735 | R2=-2.863
+[2026-02-04 09:48:56]     Fold 7/9 done | model=PLSR | fit=0.2s | fold_total=0.2s | RMSE=4.881 | R2=-1.222
+[2026-02-04 09:48:57]     Fold 8/9 done | model=PLSR | fit=0.2s | fold_total=0.2s | RMSE=8.017 | R2=-1.290
+[2026-02-04 09:48:57]     Fold 9/9 done | model=PLSR | fit=0.2s | fold_total=0.2s | RMSE=3.515 | R2=0.061
+[2026-02-04 09:48:57]   Model end: PLSR | elapsed=2.0s
+[2026-02-04 09:48:57]   Model start: SVR_RBF | grid=yes
+[2026-02-04 09:48:57]     Fold 1/9 done | model=SVR_RBF | fit=0.4s | fold_total=0.4s | RMSE=8.99 | R2=-1.000
+[2026-02-04 09:48:58]     Fold 2/9 done | model=SVR_RBF | fit=0.4s | fold_total=0.4s | RMSE=8.275 | R2=-1.336
+[2026-02-04 09:48:58]     Fold 3/9 done | model=SVR_RBF | fit=0.4s | fold_total=0.5s | RMSE=7.07 | R2=-15.099
+[2026-02-04 09:48:59]     Fold 4/9 done | model=SVR_RBF | fit=0.4s | fold_total=0.4s | RMSE=2.384 | R2=-1.121
+[2026-02-04 09:48:59]     Fold 5/9 done | model=SVR_RBF | fit=0.4s | fold_total=0.4s | RMSE=1.987 | R2=0.037
+[2026-02-04 09:48:59]     Fold 6/9 done | model=SVR_RBF | fit=0.4s | fold_total=0.4s | RMSE=3.67 | R2=-1.321
+[2026-02-04 09:49:00]     Fold 7/9 done | model=SVR_RBF | fit=0.4s | fold_total=0.4s | RMSE=4.383 | R2=-0.792
+[2026-02-04 09:49:00]     Fold 8/9 done | model=SVR_RBF | fit=0.4s | fold_total=0.4s | RMSE=6.581 | R2=-0.543
+[2026-02-04 09:49:00]     Fold 9/9 done | model=SVR_RBF | fit=0.4s | fold_total=0.4s | RMSE=4.716 | R2=-0.690
+[2026-02-04 09:49:00]   Model end: SVR_RBF | elapsed=3.6s
+[2026-02-04 09:49:00]   Model start: GPR | grid=no
+[2026-02-04 09:49:01]     Fold 1/9 done | model=GPR | fit=0.0s | fold_total=0.0s | RMSE=8.479 | R2=-0.779
+[2026-02-04 09:49:01]     Fold 2/9 done | model=GPR | fit=0.1s | fold_total=0.1s | RMSE=8.6 | R2=-1.523
+[2026-02-04 09:49:01]     Fold 3/9 done | model=GPR | fit=0.0s | fold_total=0.0s | RMSE=5.953 | R2=-10.413
+[2026-02-04 09:49:01]     Fold 4/9 done | model=GPR | fit=0.0s | fold_total=0.0s | RMSE=2.871 | R2=-2.076
+[2026-02-04 09:49:01]     Fold 5/9 done | model=GPR | fit=0.0s | fold_total=0.0s | RMSE=1.941 | R2=0.081
+[2026-02-04 09:49:01]     Fold 6/9 done | model=GPR | fit=0.0s | fold_total=0.0s | RMSE=4.433 | R2=-2.386
+[2026-02-04 09:49:01]     Fold 7/9 done | model=GPR | fit=0.0s | fold_total=0.0s | RMSE=3.31 | R2=-0.022
+[2026-02-04 09:49:01]     Fold 8/9 done | model=GPR | fit=0.1s | fold_total=0.1s | RMSE=5.738 | R2=-0.173
+[2026-02-04 09:49:01]     Fold 9/9 done | model=GPR | fit=0.0s | fold_total=0.0s | RMSE=4.459 | R2=-0.510
+[2026-02-04 09:49:01]   Model end: GPR | elapsed=0.4s
+[2026-02-04 09:49:01]   Model start: RandomForest | grid=yes
+[2026-02-04 09:49:36]     Fold 1/9 done | model=RandomForest | fit=35.5s | fold_total=35.6s | RMSE=6.497 | R2=-0.045
+[2026-02-04 09:50:12]     Fold 2/9 done | model=RandomForest | fit=35.5s | fold_total=35.7s | RMSE=8.328 | R2=-1.366
+[2026-02-04 09:50:48]     Fold 3/9 done | model=RandomForest | fit=36.2s | fold_total=36.3s | RMSE=5.431 | R2=-8.501
+[2026-02-04 09:51:22]     Fold 4/9 done | model=RandomForest | fit=33.5s | fold_total=33.7s | RMSE=2.24 | R2=-0.873
+[2026-02-04 09:51:58]     Fold 5/9 done | model=RandomForest | fit=35.9s | fold_total=36.0s | RMSE=1.823 | R2=0.189
+[2026-02-04 09:52:34]     Fold 6/9 done | model=RandomForest | fit=35.7s | fold_total=35.8s | RMSE=4.478 | R2=-2.455
+[2026-02-04 09:53:08]     Fold 7/9 done | model=RandomForest | fit=34.3s | fold_total=34.5s | RMSE=4.073 | R2=-0.547
+[2026-02-04 09:53:44]     Fold 8/9 done | model=RandomForest | fit=35.6s | fold_total=35.8s | RMSE=5.858 | R2=-0.223
+[2026-02-04 09:54:20]     Fold 9/9 done | model=RandomForest | fit=36.0s | fold_total=36.1s | RMSE=4.461 | R2=-0.512
+[2026-02-04 09:54:20]   Model end: RandomForest | elapsed=5m 19s
+[2026-02-04 09:54:20]   Model start: HistGB | grid=yes
+[2026-02-04 09:54:27]     Fold 1/9 done | model=HistGB | fit=6.3s | fold_total=6.3s | RMSE=7.273 | R2=-0.309
+[2026-02-04 09:54:29]     Fold 2/9 done | model=HistGB | fit=2.8s | fold_total=2.8s | RMSE=7.907 | R2=-1.132
+[2026-02-04 09:54:32]     Fold 3/9 done | model=HistGB | fit=2.8s | fold_total=2.8s | RMSE=6.519 | R2=-12.687
+[2026-02-04 09:54:36]     Fold 4/9 done | model=HistGB | fit=3.9s | fold_total=3.9s | RMSE=2.379 | R2=-1.113
+[2026-02-04 09:54:39]     Fold 5/9 done | model=HistGB | fit=2.9s | fold_total=2.9s | RMSE=2.775 | R2=-0.879
+[2026-02-04 09:54:42]     Fold 6/9 done | model=HistGB | fit=2.9s | fold_total=2.9s | RMSE=5.068 | R2=-3.425
+[2026-02-04 09:54:45]     Fold 7/9 done | model=HistGB | fit=2.7s | fold_total=2.7s | RMSE=4.197 | R2=-0.643
+[2026-02-04 09:54:48]     Fold 8/9 done | model=HistGB | fit=3.3s | fold_total=3.3s | RMSE=5.676 | R2=-0.148
+[2026-02-04 09:54:52]     Fold 9/9 done | model=HistGB | fit=4.5s | fold_total=4.5s | RMSE=5.965 | R2=-1.703
+[2026-02-04 09:54:52]   Model end: HistGB | elapsed=32.0s
+[2026-02-04 09:54:52] CV end: leave_one_day_out | elapsed=6m 36s
+[2026-02-04 09:54:52] CV start: leave_one_site_out | folds=50 | n=93 | p=55
+[2026-02-04 09:54:52]   Model start: Ridge | grid=yes
+[2026-02-04 09:54:53]     Fold 1/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=4.714 | R2=-15.803
+[2026-02-04 09:54:53]     Fold 2/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=3.436 | R2=-4722.734
+[2026-02-04 09:54:53]     Fold 3/50 done | model=Ridge | fit=0.3s | fold_total=0.4s | RMSE=3.301 | R2=0.450
+[2026-02-04 09:54:54]     Fold 4/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=4.144 | R2=0.659
+[2026-02-04 09:54:54]     Fold 5/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=3.706 | R2=0.584
+[2026-02-04 09:54:54]     Fold 6/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=1.647 | R2=-0.737
+[2026-02-04 09:54:55]     Fold 7/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=3.537 | R2=-3.888
+[2026-02-04 09:54:55]     Fold 8/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=4.337 | R2=-3.476
+[2026-02-04 09:54:55]     Fold 9/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=3.843 | R2=-19.437
+[2026-02-04 09:54:56]     Fold 10/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=1.715 | R2=-7.175
+[2026-02-04 09:54:56]     Fold 11/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=3.627 | R2=-10.935
+[2026-02-04 09:54:56]     Fold 12/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=3.895 | R2=-11.540
+[2026-02-04 09:54:56]     Fold 13/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=2.403 | R2=-0.092
+[2026-02-04 09:54:57]     Fold 14/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=6.764 | R2=-33.593
+[2026-02-04 09:54:57]     Fold 15/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=4.204 | R2=-23.459
+[2026-02-04 09:54:57]     Fold 16/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=2.73 | R2=-19.707
+[2026-02-04 09:54:58]     Fold 17/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=4.385 | R2=-119.191
+[2026-02-04 09:54:58]     Fold 18/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=0.9185 | R2=0.778
+[2026-02-04 09:54:58]     Fold 19/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=1.226 | R2=0.605
+[2026-02-04 09:54:59]     Fold 20/50 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=9.398 | R2=-26.262
+[2026-02-04 09:54:59]     Fold 21/50 done | model=Ridge | fit=0.5s | fold_total=0.5s | RMSE=1.242 | R2=0.890
+[2026-02-04 09:55:00]     Fold 22/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=6.074 | R2=-229.552
+[2026-02-04 09:55:00]     Fold 23/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=6.172 | R2=-66.729
+[2026-02-04 09:55:00]     Fold 24/50 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=2.628 | R2=0.776
+[2026-02-04 09:55:01]     Fold 25/50 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=3.882 | R2=0.632
+[2026-02-04 09:55:01]     Fold 26/50 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=1.105 | R2=-12.561
+[2026-02-04 09:55:01]     Fold 27/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=1.768 | R2=-3.327
+[2026-02-04 09:55:02]     Fold 28/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=5.872 | R2=0.426
+[2026-02-04 09:55:02]     Fold 29/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=6.04 | R2=0.051
+[2026-02-04 09:55:02]     Fold 30/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=2.642 | R2=0.109
+[2026-02-04 09:55:03]     Fold 31/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=2.65 | R2=0.514
+[2026-02-04 09:55:03]     Fold 32/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=4.723 | R2=-3.406
+[2026-02-04 09:55:03]     Fold 33/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=0.7234 | R2=-208.315
+[2026-02-04 09:55:04]     Fold 34/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=3.353 | R2=-0.384
+[2026-02-04 09:55:04]     Fold 35/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=5.837 | R2=-0.978
+[2026-02-04 09:55:04]     Fold 36/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=11.13 | R2=-0.609
+[2026-02-04 09:55:05]     Fold 37/50 done | model=Ridge | fit=0.9s | fold_total=0.9s | RMSE=11.44 | R2=-2.135
+[2026-02-04 09:55:06]     Fold 38/50 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=4.477 | R2=0.055
+[2026-02-04 09:55:06]     Fold 39/50 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=5.016 | R2=-2.141
+[2026-02-04 09:55:06]     Fold 40/50 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=4.391 | R2=-0.271
+[2026-02-04 09:55:07]     Fold 41/50 done | model=Ridge | fit=0.4s | fold_total=0.4s | RMSE=2.635 | R2=-0.441
+[2026-02-04 09:55:07]     Fold 42/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=6.044 | R2=-2.226
+[2026-02-04 09:55:07]     Fold 43/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=8.881 | R2=-0.649
+[2026-02-04 09:55:08]     Fold 44/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=0.1688 | R2=nan
+[2026-02-04 09:55:08]     Fold 45/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=4.13 | R2=nan
+[2026-02-04 09:55:08]     Fold 46/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=0.1971 | R2=nan
+[2026-02-04 09:55:09]     Fold 47/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=0.6104 | R2=nan
+[2026-02-04 09:55:09]     Fold 48/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=1.296 | R2=nan
+[2026-02-04 09:55:09]     Fold 49/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=0.1713 | R2=nan
+[2026-02-04 09:55:09]     Fold 50/50 done | model=Ridge | fit=0.3s | fold_total=0.3s | RMSE=2.618 | R2=nan
+[2026-02-04 09:55:09]   Model end: Ridge | elapsed=17.1s
+[2026-02-04 09:55:09]   Model start: ElasticNet | grid=yes
+[2026-02-04 09:55:13]     Fold 1/50 done | model=ElasticNet | fit=3.1s | fold_total=3.1s | RMSE=4.436 | R2=-13.880
+[2026-02-04 09:55:16]     Fold 2/50 done | model=ElasticNet | fit=3.0s | fold_total=3.0s | RMSE=3.669 | R2=-5384.957
+[2026-02-04 09:55:19]     Fold 3/50 done | model=ElasticNet | fit=3.2s | fold_total=3.2s | RMSE=2.484 | R2=0.688
+[2026-02-04 09:55:23]     Fold 4/50 done | model=ElasticNet | fit=4.1s | fold_total=4.1s | RMSE=4.143 | R2=0.660
+[2026-02-04 09:55:26]     Fold 5/50 done | model=ElasticNet | fit=3.2s | fold_total=3.2s | RMSE=3.714 | R2=0.583
+[2026-02-04 09:55:29]     Fold 6/50 done | model=ElasticNet | fit=3.2s | fold_total=3.2s | RMSE=1.558 | R2=-0.553
+[2026-02-04 09:55:33]     Fold 7/50 done | model=ElasticNet | fit=3.3s | fold_total=3.3s | RMSE=3.498 | R2=-3.781
